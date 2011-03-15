@@ -166,6 +166,7 @@ int main(int argc, char **argv)
 		"/usr/local/lib/crda/regulatory.bin", /* Users/preloads can override */
 		"/usr/lib/crda/regulatory.bin", /* General distribution package usage */
 		"/lib/crda/regulatory.bin", /* alternative for distributions */
+		"/system/lib/crda/regulatory.bin", /* alternative for android */
 		NULL
 	};
 	const char **regdb = regdb_paths;
